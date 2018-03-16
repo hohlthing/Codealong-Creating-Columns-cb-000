@@ -90,9 +90,23 @@ img, video, audio {
   display: block;
   width: 40px;
   height: 40px;
-  background: yellow;  
+  background: yellow;
 }
 
+/*///// SECTIONS /////*/
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+}
 
 /*///// LAYOUT /////*/
 
@@ -100,11 +114,6 @@ img, video, audio {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-section {
-  padding: 20px;
-  margin-bottom: 20px;
 }
 
 .wrapper {
